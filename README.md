@@ -21,7 +21,7 @@ java -jar com.example.blockchain-without-strain-0.0.1.jar 8082 8080 8081 0
 [2] - second node port
 [3] - is current node main or not ("1" - main, "0" - secondary)
 
-## Docker
+## Docker:
 
 run.bat/run.sh в командной строке/терминале с использованием Docker
 или 
