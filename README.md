@@ -1,6 +1,6 @@
 # BlockChain without strain
 
-Main:
+Master:
 [![Tests](https://github.com/Morphylix/blockchain-without-strain/actions/workflows/gradle-tests.yml/badge.svg?branch=main)](https://github.com/Morphylix/blockchain-without-strain/actions/workflows/gradle-tests.yml)
 Develop:
 [![Tests](https://github.com/Morphylix/blockchain-without-strain/actions/workflows/gradle-tests.yml/badge.svg?branch=dev)](https://github.com/Morphylix/blockchain-without-strain/actions/workflows/gradle-tests.yml)
@@ -22,11 +22,8 @@ java -jar com.example.blockchain-without-strain-0.0.1.jar 8082 8080 8081 0
 [3] - is current node main or not ("1" - main, "0" - secondary)
 
 ## Docker:
-
-run.bat/run.sh в командной строке/терминале с использованием Docker
-или 
-docker build -t blockchain-without-strain .
-docker-compose up
+Собрать докер-образ: "docker build -t blockchain-without-strain .",  
+запустить docker-compose: "docker-compose up"
 
 # Тестирование
 
@@ -35,4 +32,4 @@ docker-compose up
 - Модульные тесты (testValidateGenesisManually, testValidateBlockChainManually);
 - Интеграционные (testBlockInsertedNotification, testBlockInsertedNotificationFailed, testAskThirdNode, testSendLastBlock, testValidateBlockChain, testValidateBlockChainFailed, testHandleReceivedBlock)
 
-Был создан runner для Github, тестирование проводится под различные ОС: Linux, Windows, MacOS. Release.
+Был создан runner для Github, тестирование проводится под различные ОС: Linux, Windows, MacOS.
