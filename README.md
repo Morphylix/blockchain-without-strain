@@ -35,4 +35,4 @@ docker-compose up
 - Модульные тесты (testValidateGenesisManually, testValidateBlockChainManually);
 - Интеграционные (testBlockInsertedNotification, testBlockInsertedNotificationFailed, testAskThirdNode, testSendLastBlock, testValidateBlockChain, testValidateBlockChainFailed, testHandleReceivedBlock)
 
-Был создан runner для Github, тестирование проводится под различные ОС: Linux, Windows, MacOS.
+Был создан runner для Github, тестирование проводится под различные ОС: Linux, Windows, MacOS. Release.
