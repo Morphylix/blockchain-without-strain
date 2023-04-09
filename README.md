@@ -1,7 +1,7 @@
 # BlockChain without strain
 
 Master:
-[![Tests](https://github.com/Morphylix/blockchain-without-strain/actions/workflows/gradle-tests.yml/badge.svg?branch=main)](https://github.com/Morphylix/blockchain-without-strain/actions/workflows/gradle-tests.yml)
+[![Tests](https://github.com/Morphylix/blockchain-without-strain/actions/workflows/gradle-tests.yml/badge.svg?branch=master)](https://github.com/Morphylix/blockchain-without-strain/actions/workflows/gradle-tests.yml)
 Develop:
 [![Tests](https://github.com/Morphylix/blockchain-without-strain/actions/workflows/gradle-tests.yml/badge.svg?branch=dev)](https://github.com/Morphylix/blockchain-without-strain/actions/workflows/gradle-tests.yml)
 
